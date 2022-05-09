@@ -2,22 +2,23 @@
   "name": "export-problems",
 	"displayName": "Export Problems",
 	"description": "Export the problems list to a csv file.",
-	"version": "0.0.1",
+	"publisher": "adamszabo",
+	"version": "1.0.0",
 	"engines": {
-		"vscode": "^1.67.0"
+		"vscode": "^1.60.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:export-problems.helloWorld"
+        "onCommand:export-problems.exportProblems"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "export-problems.helloWorld",
-				"title": "Hello World"
+				"command": "export-problems.exportProblems",
+				"title": "Export Problems: Export Problems"
 			}
 		]
 	},
@@ -30,7 +31,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.67.0",
+		"@types/vscode": "^1.60.0",
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.1.0",
 		"@types/node": "14.x",
