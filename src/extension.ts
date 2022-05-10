@@ -36,7 +36,7 @@ class Problem {
     startCharacter: number;
 
 	public toString(): string {
-		return this.formatOutput(this.path) + ',' + this.formatOutput(this.severity) + ',' + this.formatOutput(this.code.toString()) + ',' + this.formatOutput(this.message)+ ',' + this.formatOutput(this.startLine.toString()) + ','  + this.formatOutput(this.startCharacter.toString()) + ',' + this.formatOutput(this.target.toString());
+		return this.formatOutput(this.path) + ',' + this.formatOutput(this.code.toString()) + ',' + this.formatOutput(this.severity) + ',' + this.formatOutput(this.message)+ ',' + this.formatOutput(this.startLine.toString()) + ','  + this.formatOutput(this.startCharacter.toString()) + ',' + this.formatOutput(this.target.toString());
 	}
 
 	private formatOutput(input: string): string {
