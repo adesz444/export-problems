@@ -1,6 +1,6 @@
 # export-problems README
 
-This is a simple extension to export the problems content to a csv file.
+This is a simple extension to export the problems content to a csv file. The functionality is based on a feature of [Tobias Fenster's VSCode extension](https://github.com/tfenster/ALRunner) (thank you!), don't forget to check his repo/blog about it!
 
 ## Features
 
@@ -9,8 +9,6 @@ This is a simple extension to export the problems content to a csv file.
 ## Known Issues
 
 ## Release Notes
-
-Initial release
 
 ### 1.0.0
 
